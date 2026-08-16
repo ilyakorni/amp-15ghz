@@ -1,0 +1,149 @@
+2026-08-16 14:00:26   According to the selected features the <Time Domain Solver (HEX)> will be
+                      started.
+
+                      ------------------------------------------------------------------------------
+2026-08-16 14:00:26   
+                      Solver started at: 2026-08-16 14:00:26 +0300
+
+                        Module:  Time Domain: S-Parameter (Win 64)
+                        Version: 2025.1 Release from 2024-10-28 (change 1339251)
+
+2026-08-16 14:00:26   
+
+                      ------------------------------------------------------------------------------
+2026-08-16 14:00:26   Hardware Accelerator Device infos:
+                      - The environment variable CST_HWACC_ALLOW_UNVERIFIED_HARDWARE is set to allow all GPUs. Please consider to set 
+                      CUDA_VISIBLE_DEVICES to limit the available devices.
+                      - On your system CUDA_VISIBLE_DEVICES is set to: 0
+                      - CUDA_MODULE_LOADING is set to: LAZY
+
+
+                      ------------------------------------------------------------------------------
+2026-08-16 14:00:26   ======================================================================
+                       Solver cycle: 1
+                      ======================================================================
+
+                      Stimulation at discrete port 1 
+
+
+
+                      ------------------------------------------------------------------------------
+2026-08-16 14:00:26   Units settings: 
+
+                        Dimensions: mm
+                        Frequency:  GHz
+                        Time:       ns
+
+                      ------------------------------------------------------------------------------
+2026-08-16 14:00:26   The dispersive material update [Automatic] will be performed using the "Standard" update schema
+
+                      ------------------------------------------------------------------------------
+2026-08-16 14:00:31   Boundary conditions: 
+
+                        YZsymmetry: none
+                        XZsymmetry: none
+                        XYsymmetry: none
+
+                        Xmin: expanded open, 4 Layer, depth 1.30738 mm
+                        Xmax: expanded open, 4 Layer, depth 1.31655 mm
+
+                        Ymin: expanded open, 4 Layer, depth 1.30188 mm
+                        Ymax: expanded open, 4 Layer, depth 1.2246 mm
+
+                        Zmin: expanded open, 4 Layer, depth 1.2779 mm
+                        Zmax: expanded open, 4 Layer, depth 1.17865 mm
+
+                        PML-Type: Convolution PML
+
+                      ------------------------------------------------------------------------------
+2026-08-16 14:00:31   Frequency settings: 
+
+                        Fmin:         0
+                        Fmax:         60
+                        Nfsteps(lin): 1001
+
+                      ------------------------------------------------------------------------------
+2026-08-16 14:00:31   Field update statistics:
+
+                        Number of components in total: 	671099
+                        Number of TST and special elements:	56
+                        Number of lossy metal components:	9619
+
+                      Subcycling state:      			Automatically deactivated
+
+                      ------------------------------------------------------------------------------
+2026-08-16 14:00:31   Port: 1
+
+2026-08-16 14:00:31     Discrete element, reference impedance = 50 Ohm
+
+                      ------------------------------------------------------------------------------
+2026-08-16 14:00:31   Feature memory distribution of used GPU RAM:
+                      	 46 %	 core model
+                      	 46 %	 open boundary
+                      	  8 %	 lossy metal
+
+
+                      ------------------------------------------------------------------------------
+2026-08-16 14:00:34   Asynchronous communication is used for GPU Computing.
+
+                      ------------------------------------------------------------------------------
+2026-08-16 14:00:38   
+                      --------------------------------------------------------------------------------
+2026-08-16 14:00:38   Steady state energy criterion met, solver finished successfully.
+
+                      ------------------------------------------------------------------------------
+2026-08-16 14:00:38   Frequency domain results normalized to default signal.
+
+
+                      ------------------------------------------------------------------------------
+2026-08-16 14:00:38   
+                        ----------------------------------------------------------------------------
+                                            Peak memory used (kB)         Free physical memory (kB) 
+                                                                          At begin     Minimum      
+                        ----------------------------------------------------------------------------
+                        CAD preparation     18308                         6414144      6414144      
+                        Matrices calc.      547932                        6392578      5839843      
+                        Solver run total    172092                        6289564      6222512      
+                        ----------------------------------------------------------------------------
+
+                      --------------------------------------------------------------------------------
+                      Solver Statistics:
+
+                        Hardware:
+                           Computer name:                 	Crims0ncl0ud 
+
+                           Number of CPU threads:               4
+                           hardware type:                  	1 CUDA GPU solver, NVIDIA GeForce RTX 4050 Laptop GPU
+                           GPU memory usage:            	  approx. 5 %
+
+                        Number of mesh cells:             	108290
+                        Excitation duration:              	5.92424791e-002 ns 
+                        Calculation time for excitation:  	0 	s
+                        Number of calculated pulse widths:	4.49763 
+                        Steady state accuracy limit:      	-20	dB 
+                        Simulated number of time steps:   	3168 
+                        Maximum number of time steps:     	14087 
+                        Time step width:
+                           without subcycles:             	8.410683819e-005 ns
+                           used:                          	8.410683819e-005 ns
+
+                        Reloading matrices:               	1 	s
+                        Solver setup time:                	5 	s
+                        Solver loop time:                 	2 	s
+                        Solver post-processing time:      	1 	s
+                                                          	------------
+                        Total solver time:                	9 	s
+
+                      ------------------------------------------------------------------------------
+2026-08-16 14:00:38   
+                        Total solver time (all cycles):      	9      	s
+                        Solver initialization and clean-up:  	3      	s
+                                                             	------------
+                        Total simulation time:               	12     	s
+
+                      ------------------------------------------------------------------------------
+2026-08-16 14:00:38   Solver finished at: 2026-08-16 14:00:38 +0300
+
+
+
+                      ------------------------------------------------------------------------------

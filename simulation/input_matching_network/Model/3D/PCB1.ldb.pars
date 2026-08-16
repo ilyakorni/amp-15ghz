@@ -1,0 +1,86 @@
+{
+    "parameters": null,
+    "units": {
+        "Capacitance": {
+            "encoded": "&Up:F^1",
+            "full_symbol": "pF",
+            "prefix": "p",
+            "si_scale": 1e-12,
+            "si_unit": "F",
+            "unit": "F"
+        },
+        "Conductance": {
+            "encoded": "&U:S^1",
+            "full_symbol": "S",
+            "prefix": "",
+            "si_scale": 1.0,
+            "si_unit": "S",
+            "unit": "S"
+        },
+        "Current": {
+            "encoded": "&U:A^1",
+            "full_symbol": "A",
+            "prefix": "",
+            "si_scale": 1.0,
+            "si_unit": "A",
+            "unit": "A"
+        },
+        "Frequency": {
+            "encoded": "&UG:Hz^1",
+            "full_symbol": "GHz",
+            "prefix": "G",
+            "si_scale": 1000000000.0,
+            "si_unit": "Hz",
+            "unit": "Hz"
+        },
+        "Inductance": {
+            "encoded": "&Un:H^1",
+            "full_symbol": "nH",
+            "prefix": "n",
+            "si_scale": 1e-09,
+            "si_unit": "H",
+            "unit": "H"
+        },
+        "Length": {
+            "encoded": "&Um:m^1",
+            "full_symbol": "mm",
+            "prefix": "m",
+            "si_scale": 0.001,
+            "si_unit": "m",
+            "unit": "m"
+        },
+        "Resistance": {
+            "encoded": "&U:Ohm^1",
+            "full_symbol": "Ω",
+            "prefix": "",
+            "si_scale": 1.0,
+            "si_unit": "Ω",
+            "unit": "Ω"
+        },
+        "Temperature": {
+            "encoded": "&U:Cel^1",
+            "full_symbol": "°C",
+            "prefix": "",
+            "si_scale": 274.15,
+            "si_unit": "K",
+            "unit": "°C"
+        },
+        "Time": {
+            "encoded": "&Un:s^1",
+            "full_symbol": "ns",
+            "prefix": "n",
+            "si_scale": 1e-09,
+            "si_unit": "s",
+            "unit": "s"
+        },
+        "Voltage": {
+            "encoded": "&U:V^1",
+            "full_symbol": "V",
+            "prefix": "",
+            "si_scale": 1.0,
+            "si_unit": "V",
+            "unit": "V"
+        }
+    },
+    "version": 1
+}

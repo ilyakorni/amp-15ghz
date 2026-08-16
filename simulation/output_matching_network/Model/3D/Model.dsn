@@ -1,0 +1,52 @@
+*** File Version: 21.00
+
+Number of ports: 1
+Portnames: "1"
+Modenumbers: 1
+Porttypes: 2
+Portlabels: ""
+StaticSources:
+ThermalSources:
+FloquetPortNames:
+FloquetPortModes:
+SchematicPortNames:
+SchematicPortLabels:
+Terminals:
+StaticToReferenceTable:
+ThermalToReferenceTable:
+TerminalToReferenceTable:
+PortToReferenceTable: "1" "1'"
+FloquetToReferenceTable:
+SchematicToReferenceTable:
+StaticSourceGroups:
+ThermalSourceGroups:
+TerminalSourceGroups:
+PortSourceGroups:
+FloquetPortSourceGroups:
+SchematicPortSourceGroups:
+Number of frequency-points: 1
+Fmin: 0.000000e+00
+Fmax: 6.000000e+10
+Fscale: 1.000000e+09
+
+
+
+*** newset
+
+*** newmode
+SetType: 100
+Portname: 1
+Modenumber: 1
+Modetype: 6
+Zline: 5.000000e+01 0.000000e+00
+Fdev: 3.000000e+10
+Fmin: 0.000000e+00
+Fmax: 6.000000e+10
+PortModeConsState: 0
+*** endmode
+
+*** endset
+
+
+
+
