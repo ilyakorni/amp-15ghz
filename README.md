@@ -1,8 +1,8 @@
-# Усилитель СВЧ диапазона 15 ГГц на транзисторе ATF-26884
-
 <p align="center">
   <b>Русский</b> | <a href="README.en.md">English</a> | <a href="README.de.md">Deutsch</a>
 </p>
+
+# Усилитель СВЧ диапазона 15 ГГц на транзисторе ATF-26884
 
 <p align="center">
   <img src="docs/images/pcb_3d_assembly_top_view.png" alt="3D-модель печатной платы усилителя 15 ГГц" width="80%">
